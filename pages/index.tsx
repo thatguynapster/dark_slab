@@ -17,6 +17,7 @@ const Home: NextPage = () => {
             <Image
               className="rounded-l-lg"
               src={bgImage}
+              priority
               layout="fill"
               alt="Background Art"
               objectFit="cover"
