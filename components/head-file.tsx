@@ -21,12 +21,9 @@ export const HeadFile: FC<IHeaderProps> = ({ title, canonical }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="keywords" content="" />
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-        {process.env.NEXT_PUBLIC_ENVIRONMENT === "production" && (
-          <>
-            <script async src="/js/clarity-analytics.js" />
-            <script async src="/js/hotjar-analytics.js" />
-          </>
-        )}
+        
+        <link rel="prefetch" href="/img/logo.png" />
+        <link rel="prefetch" href="/img/bg-art.png" />
       </Head>
 
       <NextSeo
