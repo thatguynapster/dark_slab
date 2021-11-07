@@ -20,7 +20,6 @@ export const HeadFile: FC<IHeaderProps> = ({ title, canonical }) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="keywords" content="" />
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
         
         <link rel="prefetch" href="/img/logo.png" />
         <link rel="prefetch" href="/img/bg-art.png" />
